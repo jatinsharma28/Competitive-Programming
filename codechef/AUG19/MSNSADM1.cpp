@@ -1,4 +1,4 @@
-#problem link=https://www.codechef.com/AUG19B/problems/MSNSADM1
+//problem link=https://www.codechef.com/AUG19B/problems/MSNSADM1
 
 
 
