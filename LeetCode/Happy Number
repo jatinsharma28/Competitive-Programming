@@ -1,0 +1,37 @@
+//Problem Link: https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3284/
+
+class Solution {
+public:
+    bool isHappy(int num) {
+         int result = num;
+        while(result != 1 && result != 4){  
+            //result = isHappyNumber(result);
+             int rem = 0, sum = 0;  
+              num=result;
+        //Calculates the sum of squares of digits  
+        while(num > 0){  
+            rem = num%10;  
+            sum = sum + (rem*rem);  
+            num = num/10;  
+        } 
+            result = sum;
+        }  
+         if(result==1)
+         {
+             return true;
+             
+         }
+        else if(result==4)
+        {
+           return false; 
+        }
+        
+        else
+        {
+            return false;
+        }
+        
+    }
+    
+    
+};
